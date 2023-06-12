@@ -1,0 +1,66 @@
+*{
+    font-family: monospace;
+}
+h1{
+    color: rgb(87, 107, 13);
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    /* display: block; */
+    /* justify-content: center; */
+    align-items: center;
+}
+img {
+    display: block; /* Ensures the image behaves as a block element */
+    max-width: 80%; /* Limits the image width to its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    margin: 30px auto; /* Centers the image horizontally within its container */
+    /* border: 5px solid #000; Adds a 1px solid black border */
+    /* border-radius: 5px; Applies a 5px border radius */
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); Adds a box shadow */
+  }
+
+a {
+    color: rgb(87, 107, 13);
+    text-decoration: none;
+    font-size:5em;
+    margin:0 auto;
+    list-style: none;
+}
+
+
+.indexPageList {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+    
+}
+ h4 {
+    color: rgb(87, 107, 13);
+    text-align: center;
+}
+li {
+    /* display:block; */
+    margin:0 50px;
+}
+
+ ol, ul {
+    text-align: justify;
+    border: 1px solid black;
+    padding:30px;
+    display: block;
+    margin:50px auto; 
+    max-width: 70%;
+} 
+
+p {
+    display:block;
+    margin: 0 50px;
+    text-align: justify;
+    padding: 0 10%;
+}
